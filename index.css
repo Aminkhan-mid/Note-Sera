@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(red, #111);
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;                           
+}
+.container{
+    margin-top: 50px;
+    min-height: 100vh;
+}
+h3{
+    color: #121212;
+    font-size: 2rem;
+    text-shadow:2px 2px 0px yellow;
+    margin: 0;
+}
+.feed-container{
+    background-color: seashell;
+    min-width: 200px;
+    height:500px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0;
+    overflow:auto;
+}
+.flexOne{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexTwo{
+    display: flex;
+    flex-direction: column;
+}
+.textarea{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    line-height: 35px;
+    border:1px solid #05d961;
+    resize: none;
+    background-color: #121212;
+    font-size: 1.2rem;
+    text-align: left;
+    color: yellow;
+    margin: 10px 0px;
+    padding: 15px;
+}
+.textarea::placeholder{
+    font-size: 1.4rem;
+    padding: 4px;
+    opacity: 0.6;
+}
+.save-btn{
+    box-shadow: 3px 3px 4px #111;
+    border: none;
+    height: 40px;
+    margin: 60px 20px 0px 20px;
+    background-color: plum;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #121212;
+    cursor: pointer;
+}
+.save-btn:hover{
+    background-color: palevioletred;
+}
+.save-btn:active{
+    color: aliceblue;
+    background-color: purple;
+}
+
+.note-inner{
+    word-break: break-all;
+    background-color: #121212;
+    color: plum;
+    border-radius: 30px;
+    margin:20px auto;
+    width: 450px;
+    padding: 15px;
+}
+.note-text{
+    font-size: 1.1rem;
+}
+
+.del-btn{
+    border-radius: 50%;
+    border: none;
+    background-color: #db4305;
+    padding: 10px;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.del-btn:hover{
+    background-color: #b13200;
+}
+.del-btn:active{
+    color: black;
+    background-color: #05d961;
+    box-shadow: 0px 0px 10px #05d961;
+}
+
+a{
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: yellow;
+}
+
+i{
+    background-color: #05d961;
+    padding: 10px;
+    border-radius: 15px;
+}
